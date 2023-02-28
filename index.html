@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/fotoperfil1.jpg">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style1.css">
+	<link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/sobre-mi.css">
+    <link rel="stylesheet" href="assets/css/habilidades.css">
+    <link rel="stylesheet" href="assets/css/proyectos.css">
+    <link rel="stylesheet" href="assets/css/contacto.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/27b4bfd144/UntitledProject/style-svg.css">
+    <title>New Portfolio</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img class="logo" src="./assets/img/fotoperfil.png" alt="logo">
+            <div class="menu">
+                <img class="menu_img" src="./assets/img/iconmenu.svg" alt="logo wg">
+                <div class="menu_toogle" id="menu_toogle">
+                    <nav class="menu_nav">
+                        <a href="#sobre-mi"><span class="icon-home"></span>Sobre-mi</a>
+                        <a href="#habilidades"><span class="icon-keyboard"></span>Habilidades</a>
+                        <a href="#proyectos"><span class="icon-clipboard"></span>Proyectos</a>
+                        <a href="#contacto"><span class="icon-users"></span>Contacto</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="sobre-mi1">
+                <img class="sobre-mi_fotoPerfil" src="./assets/img/section1.png" alt="fotoPerfil">
+            </section>
+            <a name="sobre-mi"></a>
+            <section class="sobre-mi">
+                <h1>Walter Gimenez</h1>
+                <h3>Frontend Developer</h3>
+                <p>Desarrollador frontend en busca de ideas y proyectos para sí mismo y para otros.</p>
+                <img src="" alt="">
+                <p>Hace unos años, me interesé en el desarrollo de sitios web e interfaces. Desde entonces, he ido mejorando constantemente mis habilidades. Ahora estoy desarrollando sitios web y aplicaciones web por encargo y para mí.</p>
+            </section>
+            <a name="habilidades"></a>
+            <section class="habilidades">
+                <h2>Habilidades</h2>
+                <div class="habilidades-img">
+                    <img src="./assets/img/Excludehtml.svg" alt="logoHtml">
+                    <p>Html</p>
+                    <img src="./assets/img/Excludecss.svg" alt="logocss">
+                    <p>Css</p>
+                    <img src="./assets/img/Excludejs.svg" alt="logojs">
+                    <p>Javascript</p>
+                    <img src="./assets/img/logoreact.png" alt="logoReact">
+                    <p>Reactjs</p>
+                    <img src="./assets/img/logoo.png" alt="logoJquery">
+                    <p>Jquery</p>
+                    <img src="./assets/img/logotailwind.png" alt="logoTailwind">
+                    <p>Tailwind</p>
+                    <img src="./assets/img/logobootstrap.png" alt="logoBootstrap">
+                    <p>Bootstrap</p>
+                    <img src="./assets/img/logofigma.png" alt="logoFigma">
+                    <p>Figma</p>
+                    <img src="./assets/img/Excludegit.svg" alt="logoGit">
+                    <p>Git</p>
+                    <img src="./assets/img/logogithub.png" alt="logoGithub">
+                    <p>Github</p>
+                </div>
+            </section>
+            <a name="proyectos"></a>
+            <section class="proyectos">
+                <h2>Proyectos</h2>
+                <article class="proyect proyect1">
+                    <h3>Juego de conejos</h3>
+                    <p>HTML-CSS-JAVASCRIPT</p>
+                    <hr style='width:200px ;float:left'>
+                    <p style='clear:both'>Juego que consiste en tocar los conejitos y sumar puntos, el que llegue hasta 10 gana.</p>
+                    <img src="./assets/img/fotojuego1.png" alt="proyecto1">
+                    <button>Ir al juego</button>
+                    <button>Ver codigo</button>
+                </article>
+                <article class="proyect proyect2">
+                    <h3>Web de Barberia</h3>
+                    <p>HTML-CSS-JAVASCRIPT</p>
+                    <hr style='width:200px ;float:left'>
+                    <p style='clear:both'>Web informativa de una Barberia con todos sus servicios.</p>
+                    <img src="./assets/img/headerimg.jpg" alt="proyecto2">
+                    <button>Ir a la web</button>
+                    <button>Ir al codigo</button>
+                </article>
+                <article class="proyect proyect3">
+                    <h3>Encriptador de texto</h3>
+                    <p>HTML-CSS-JAVASCRIPT</p>
+                    <hr style='width:200px ;float:left'>
+                    <p style='clear:both'>Web app , que consiste en encriptar y desencriptar texto que el usuario coloque.</p>
+                    <img src="./assets/img/encriptador.png" alt="proyecto3">
+                    <button>Ir al programa</button>
+                    <button>Ir al codigo</button>
+                </article>
+            </section>
+            <a name="contacto"></a>
+            <section class="contacto">
+                <h2>Contacto</h2>
+                <form action="https://formsubmit.co/walterg610@gmail.com" method="POST" id=" formulario">
+                    <!-- <label for="nombreapellido" >Nombre y Apellido</label> -->
+                    <input type="text" name="nombreapellido" id="nombreapellido" class="input-padron" placeholder="Nombre / Empresa" required>
+                    <!-- <label for="email" >Correo Electronico</label> -->
+                    <input type="email" name="email" id="email" placeholder="Email@dominio.com" class="input-padron" required>
+                    <!-- <label for="telefono" >Teléfono</label> -->
+                    <input type="tel" name="telefono" id="telefono" placeholder="(xx) xxxx xxxx" class="input-padron" required>
+                    <!-- <label for="mensaje" >Mensaje</label> -->
+                    <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aqui" class="input-padron"></textarea>
+                    <input type="submit" value="Enviar" id="enviar">
+                    <input type="hidden" name="_next" value="https://waku1044.github.io/portfolio/">
+                    <input type="hidden" name="_captcha" value="false">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <h3>Redes</h3>
+            <ul>
+                <li><a target="_blank" href="https://www.instagram.com/wakug44" target="_blank"><img src="./assets/img/instagram.png" alt="instagram"></a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/in/walter-gimenez-waku"><img src="./assets/img/linkedin.png" alt="linkedin"></a></li>
+                <li><a target="_blank" href="https://github.com/waku1044"><img src="./assets/img/github_fondo_blanco.svg" alt="github"></a>
+                </li>
+            </ul>
+            <blockquote>
+                <p>&copy Todos los derechos de este Portfolio son de Wakutec</p>
+            </blockquote>
+        </footer>
+    </div>
+    <script src="assets/script/index.js"></script>
+	<script defer src="https://i.icomoon.io/public/temp/27b4bfd144/UntitledProject/svgxuse.js"></script>
+</body>
+
+</html>

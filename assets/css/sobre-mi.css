@@ -1,0 +1,28 @@
+.sobre-mi_fotoPerfil{
+	width: 100%;
+	max-width: 200px;
+}
+h1 , h2{
+	color: var(--titulos-secciones);
+	font-size: 2rem;
+	margin: 30px;
+}
+.sobre-mi{
+	width: 100%;
+	max-width: 960px;
+	
+	display: flex;
+	flex-direction: column;
+/*	justify-content: center;*/
+	align-items: center;
+}
+.sobre-mi p{
+	padding: 10px 50px;
+}
+.sobre-mi h3{
+	padding: 0 20px;
+	color: var(--subtitulo);
+}
+.sobre-mi img{
+	display: inline-block;
+}

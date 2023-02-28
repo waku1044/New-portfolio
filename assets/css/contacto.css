@@ -1,0 +1,44 @@
+.contacto{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+form{
+	width: 100%;
+	max-width: 960px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding-bottom: 30px;
+}
+form input{
+	padding: 20px;
+	border: 1px solid #000;
+	box-shadow: 5px 5px 3px var(--sombra-gris);
+}
+form textarea{
+	padding: 20px;
+	border: 1px solid #000;
+	box-shadow: 5px 5px 3px var(--sombra-gris);
+}
+#enviar{
+	border: none;
+	box-shadow: none;
+	font-weight: 700;
+	color: var(--parrafos);
+	letter-spacing: .2rem;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 0 5px var(--sombra-gris);
+	background-color: slateblue;
+	transition: .500s all;
+}
+#enviar:hover{
+	transform: scale(1.2);
+	background-color: var(--btn-proyectos);
+}
+#enviar:active{
+	transform:translate(0 ,5px);
+	box-shadow: none;
+}

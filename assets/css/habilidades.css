@@ -1,0 +1,25 @@
+.habilidades{
+	width: 100%;
+	max-width: 960px;
+	
+
+/*	background-color: brown;*/
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.habilidades img{
+	width: 32px;
+}
+.habilidades-img{
+		
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 450px;
+	width: 300px;
+	flex-wrap: wrap;
+	gap: 20px;
+/*	background-color: brown;*/
+}

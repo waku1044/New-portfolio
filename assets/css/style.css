@@ -1,0 +1,34 @@
+:root{
+/*	--background-fondo:#3d5c5c;*/
+	--background-fondo:#000;
+	--titulos-secciones: #FF8300;
+	--titulo-proyecto:#FF8303;
+	--parrafos:#F0E3CA;
+	--btn-proyectos:#33D468B0;
+	--sombra-gris:#444;
+}
+
+
+.container{
+	width: 100vw;
+	background:linear-gradient(#000,#444,#333,#222);
+	color:var(--titulo-proyecto);
+}
+.container p{
+	color:var(--parrafos);
+}
+main{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+@media screen and (min-width:704px){
+	.logo{
+
+	}
+}
+
+
+

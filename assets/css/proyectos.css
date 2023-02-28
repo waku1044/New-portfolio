@@ -1,0 +1,30 @@
+.proyectos{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.proyectos h3{
+	font-size: 2rem;
+}
+.proyect{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	padding-bottom: 50px;
+
+}
+.proyect p{
+	padding: 10px 25px;
+}
+.proyect button{
+	border: none;
+	border-radius: 15px;
+	box-shadow: inset 5px 5px 3px var(--parrafos), 5px 5px 3px var(--sombra-gris);
+	padding: 10px 20px;
+	background-color:var(--btn-proyectos);
+	font-weight: 700;
+}
+.proyect1 img, .proyect2 img, .proyect3 img{
+	width: 200px;
+}
