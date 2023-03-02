@@ -47,7 +47,8 @@ header {
     width: 100vw;
     height: 100vh;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content:center;
+    gap: 50px;
     align-items: center;
     background: #333;
 }
@@ -57,7 +58,7 @@ header {
 }
 
 .menu_toogle a {
-    font-size: 2rem;
+    font-size: 1.3rem;
     color: var(--parrafos);
     text-decoration: none;
     line-height: 2rem;

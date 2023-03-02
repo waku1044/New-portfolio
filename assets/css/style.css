@@ -24,10 +24,63 @@ main{
 	align-items: center;
 	
 }
-@media screen and (min-width:704px){
-	.logo{
+#dialog{
+	width: 70%;
+	background: #444;
+}
 
-	}
+#dialog .dialog_img{
+	
+	width: 100%;
+	height: 100%;
+}
+#dialog .dialog_img:hover{
+	opacity: 1;
+}
+.btn_cerrar{
+	position: absolute;
+	bottom: 5px;
+	right: 18px;
+	
+
+	padding: 5px 10px;
+	font-size: 	1rem;
+	font-weight: 700;
+	color: var(--background-fondo);
+
+	border:none;
+	background: forestgreen;
+	border-radius: 20px;
+}
+@media screen and (min-width:704px){
+	#dialog{
+	width: 50%;
+	background: #444;
+}
+
+#dialog .dialog_img{
+	
+	width: 100%;
+	height: 100%;
+}
+#dialog .dialog_img:hover{
+	opacity: 1;
+}
+.btn_cerrar{
+	position: absolute;
+	bottom: 5px;
+	right: 18px;
+	
+
+	padding: 5px 10px;
+	font-size: 	1rem;
+	font-weight: 700;
+	color: var(--background-fondo);
+
+	border:none;
+	background: forestgreen;
+	border-radius: 20px;
+}
 }
 
 

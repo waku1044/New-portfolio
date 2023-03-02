@@ -23,3 +23,7 @@
 	gap: 20px;
 /*	background-color: brown;*/
 }
+.habilidades img:hover{
+	opacity: .5;
+	cursor: pointer;
+}
