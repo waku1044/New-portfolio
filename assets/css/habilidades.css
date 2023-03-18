@@ -9,8 +9,10 @@
 	flex-direction: column;
 }
 .habilidades img{
+	
 	width: 32px;
 }
+
 .habilidades-img{
 		
 	display: flex;
@@ -24,6 +26,7 @@
 /*	background-color: brown;*/
 }
 .habilidades img:hover{
+
 	opacity: .5;
 	cursor: pointer;
 }
