@@ -44,11 +44,11 @@ function modal(id){
 		$modals.showModal();
 		break;
 	case 'github':
-			$titulo.innerHTML = '';
-			$img_modal.style.display = 'block';
-			$img_modal.src = img_certificados[4];
-			$modals.showModal();
-			break;
+		$titulo.innerHTML = '';
+		$img_modal.style.display = 'block';
+		$img_modal.src = img_certificados[4];
+		$modals.showModal();
+		break;
 	default:
 		$img_modal.style.display = 'none';
 		$titulo.innerHTML = '<h2>Sin certificado por el momento.</h2>'
