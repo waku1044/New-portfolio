@@ -28,3 +28,14 @@ h1 , h2{
 .sobre-mi img{
 	display: inline-block;
 }
+.btn-descargar{
+	margin: 10px auto;
+	text-decoration: none;
+	letter-spacing: .5px;
+	color: #000;
+	font-weight: 700;
+	background: #ccc;
+	padding:10px 10px;
+	border-radius: 15px;
+	
+}
