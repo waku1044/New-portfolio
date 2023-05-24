@@ -7,7 +7,7 @@ const $titulo = document.querySelector('#titulo');
 const $img_modal = document.querySelector('#img_dialog');
 const $btn_cerrar = document.querySelector('.btn_cerrar');
 
-const img_certificados = ['./assets/img/certificado_html.png','./assets/img/certificado_css.png','./assets/img/certificado_js.png','./assets/img/certificado_jquery.png','./assets/img/certificado_git.	png'];
+const img_certificados = ['./assets/img/certificado_html.png','./assets/img/certificado_css.png','./assets/img/certificado_js.png','./assets/img/certificado_jquery.png','./assets/img/certificado_git.png','./assets/img/certificado_react.png'];
 
 
 function modal(id){
@@ -49,6 +49,12 @@ function modal(id){
 		$img_modal.src = img_certificados[4];
 		$modals.showModal();
 		break;
+	case 'react':
+			$titulo.innerHTML = '';
+			$img_modal.style.display = 'block';
+			$img_modal.src = img_certificados[5];
+			$modals.showModal();
+			break;
 	default:
 		$img_modal.style.display = 'none';
 		$titulo.innerHTML = '<h2>Sin certificado por el momento.</h2>'
