@@ -7,14 +7,16 @@
 	--btn-proyectos:#33D468B0;
 	--sombra-gris:#444;
 }
+p{
+	font-size: 1.4rem;
+}
 
-
-.container{
+.base{
 	/* width: 100%; */
 	background:linear-gradient(#000,#444,#333,#222);
 	color:var(--titulo-proyecto);
 }
-.container p{
+.base p{
 	color:var(--parrafos);
 }
 main{
@@ -25,7 +27,7 @@ main{
 	
 }
 #dialog{
-	width: 70%;
+	width: 20rem;
 	background: #444;
 }
 

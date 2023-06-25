@@ -1,149 +1,307 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="./assets/img/fotoperfil1.jpg" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style1.css" />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/sobre-mi.css" />
+    <link rel="stylesheet" href="assets/css/habilidades.css" />
+    <link rel="stylesheet" href="assets/css/proyectos.css" />
+    <link rel="stylesheet" href="assets/css/contacto.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://i.icomoon.io/public/temp/27b4bfd144/UntitledProject/style-svg.css"
+    />
+    <title>Portfolio WG</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./assets/img/fotoperfil1.jpg">
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/style1.css">
-	<link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/sobre-mi.css">
-    <link rel="stylesheet" href="assets/css/habilidades.css">
-    <link rel="stylesheet" href="assets/css/proyectos.css">
-    <link rel="stylesheet" href="assets/css/contacto.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
-    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/27b4bfd144/UntitledProject/style-svg.css">
-    <title>New Portfolio</title>
-</head>
+  <body>
+    <div class="container-fluid base">
+      <header class="d-flex aling-items-center justify-content-between py-4 px-2">
+        <img class="logo" src="./assets/img/fotoperfil.png" alt="logo" />
+        
+        <div class="menu">
+          <img class="menu_img" src="./assets/img/iconmenu.svg" alt="logo wg" />
+          <div class="menu_toogle" id="menu_toogle">
+            <nav class="menu_nav  align-items-center justify-content-center gap-3">
+              <a href="#sobre-mi"><span class="icon-home"></span>Sobre-mi</a>
+              <a href="#habilidades"><span class="icon-keyboard"></span>Habilidades</a>
+              <a href="#proyectos"><span class="icon-clipboard"></span>Proyectos</a>
+              <a href="#contacto"><span class="icon-users"></span>Contacto</a>
+            </nav>
+          </div>
+        </div>
+      
+      </header>
+      <main>
+        <section class="sobre-mi1">
+          <img
+            class="sobre-mi_fotoPerfil"
+            src="./assets/img/section1.png"
+            alt="fotoPerfil"
+          />
+        </section>
+        <a name="sobre-mi"></a>
+        <section class="sobre-mi">
+          <h1>Walter Gimenez</h1>
+          <h3>Frontend Developer</h3>
+          <p>Creador de ideas y proyectos.</p>
+          <p>
+            ¡Hola! Mi nombre es <b>Walter Gimenez</b> soy de Argentina.<br />Hace
+            unos años, me interesé en el desarrollo de sitios web e interfaces.
+          </p>
+          <p>
+            Desde entonces, he ido mejorando constantemente mis habilidades.
+            Ahora estoy desarrollando sitios web y aplicaciones web por encargo
+            y para mí.
+          </p>
+          <a
+            href="/assets/img/CV-DESARROLLO.pdf"
+            download="CV-DESARROLLO.pdf"
+            class="btn-descargar"
+            >Descargar CV</a
+          >
+        </section>
+        <a name="habilidades"></a>
+        <section class="habilidades">
+          <h2 class="text-center">Habilidades</h2>
 
-<body>
-    <div class="container">
-        <header>
-            <img class="logo" src="./assets/img/fotoperfil.png" alt="logo">
-            <div class="menu">
-                <img class="menu_img" src="./assets/img/iconmenu.svg" alt="logo wg">
-                <div class="menu_toogle" id="menu_toogle">
-                    <nav class="menu_nav">
-                        <a href="#sobre-mi"><span class="icon-home"></span>Sobre-mi</a>
-                        <a href="#habilidades"><span class="icon-keyboard"></span>Habilidades</a>
-                        <a href="#proyectos"><span class="icon-clipboard"></span>Proyectos</a>
-                        <a href="#contacto"><span class="icon-users"></span>Contacto</a>
-                    </nav>
-                </div>
+          <dialog id="dialog">
+            <h3 id="titulo"></h3>
+            <img id="img_dialog" class="dialog_img" alt="certificado" />
+            <button id="btn_cerrar" class="btn_cerrar">Cerrar</button>
+          </dialog>
+
+          <div
+            class="habilidades-img d-flex flex-wrap justify-content-center my-5 gap-4"
+          >
+            <div class="d-flex flex-column align-items-center gap-3 p-3">
+              <img
+                src="./assets/img/Excludehtml.svg"
+                id="html"
+                alt="logoHtml"
+              />
+              <p class="fs-2">Html</p>
             </div>
-        </header>
-        <main>
-            <section class="sobre-mi1">
-                <img class="sobre-mi_fotoPerfil" src="./assets/img/section1.png" alt="fotoPerfil">
-            </section>
-            <a name="sobre-mi"></a>
-            <section class="sobre-mi">
-                <h1>Walter Gimenez</h1>
-                <h3>Frontend Developer</h3>
-                <p>Desarrollador frontend en busca de ideas y proyectos para sí mismo y para otros.</p>
-                <p>¡Hola! Mi nombre es <b>Walter Gimenez</b> soy de Argentina, me encanta la programacion y la creacion de diseños ,tambien me gusta practicar la mayor parte del tiempo para mejorar mis habilidades.
-                Me considero muy curioso, proactivo, puntual y responsable sin dejar de enfocarme en el proyecto.
-                Nunca dejo de aprender nuevas tecnologías y obtener nuevas experiencias en este maravilloso mundo.
-                Hace unos años, me interesé en el desarrollo de sitios web e interfaces. Desde entonces, he ido mejorando constantemente mis habilidades. Ahora estoy desarrollando sitios web y aplicaciones web por encargo y para mí.</p>
-                <a href="/assets/img/CV-DESARROLLO.pdf" download="CV-DESARROLLO.pdf" class="btn-descargar">Descargar CV</a>
-            </section>
-            <a name="habilidades"></a>
-            <section class="habilidades">
-                <h2>Habilidades</h2>
-                <dialog id="dialog">
-                    <h3 id="titulo"></h3>
-                    <img  id="img_dialog" class="dialog_img" alt="certificado">
-                    <button id="btn_cerrar" class="btn_cerrar">Cerrar</button>
-                </dialog>
-                <div class="habilidades-img">
-                    <img src="./assets/img/Excludehtml.svg" id="html" alt="logoHtml">
-                    <p>Html</p>
-                    <img src="./assets/img/Excludecss.svg" id="css" alt="logocss">
-                    <p>Css</p>
-                    <img src="./assets/img/Excludejs.svg" id="js" alt="logojs">
-                    <p>Javascript</p>
-                    <img src="./assets/img/logoreact.png" id="react" alt="logoReact">
-                    <p>Reactjs</p>
-                    <img src="./assets/img/logoo.png" id="jquery" alt="logoJquery">
-                    <p>Jquery</p>
-                    <img src="./assets/img/logotailwind.png" id="tailwind" alt="logoTailwind">
-                    <p>Tailwind</p>
-                    <img src="./assets/img/logobootstrap.png" id="bootstrap" alt="logoBootstrap">
-                    <p>Bootstrap</p>
-                    <img src="./assets/img/logofigma.png" id="figma" alt="logoFigma">
-                    <p>Figma</p>
-                    <img src="./assets/img/Excludegit.svg" id="git" alt="logoGit">
-                    <p>Git</p>
-                    <img src="./assets/img/logogithub.png" id="github" alt="logoGithub">
-                    <p>Github</p>
-                </div>
-            </section>
-            <a name="proyectos"></a>
-            <section class="proyectos">
-                <h2>Proyectos</h2>
-                <article class="proyect proyect1">
-                    <h3>Juego de conejos</h3>
-                    <p>HTML-CSS-JAVASCRIPT</p>
-                    <hr style='width:200px ;float:left'>
-                    <p style='clear:both'>Juego que consiste en tocar los conejitos y sumar puntos, el que llegue hasta 10 gana.</p>
-                    <img src="./assets/img/fotojuego1.png" alt="proyecto1">
-                    <a href="https://waku1044.github.io/Juego-de-conejos" class="btn__proyect" target="_blank">Ir al juego</a>
-                    <a href="https://github.com/waku1044/Juego-de-conejos" class="btn__proyect" target="_blank">Ir al codigo</a>
-                </article>
-                <article class="proyect proyect2">
-                    <h3>Web de Barberia</h3>
-                    <p>HTML-CSS-JAVASCRIPT</p>
-                    <hr style='width:200px ;float:left'>
-                    <p style='clear:both'>Web informativa de una Barberia con todos sus servicios.</p>
-                    <img src="./assets/img/headerimg.jpg" alt="proyecto2">
-                    <a href="https://waku1044.github.io/Barberia-Alura/" class="btn__proyect" target="_blank">Ir a la web</a>
-                    <a href="https://github.com/waku1044/Barberia-Alura" class="btn__proyect" target="_blank">Ir al codigo</a>
-                </article>
-                <article class="proyect proyect3">
-                    <h3>Encriptador de texto</h3>
-                    <p>HTML-CSS-JAVASCRIPT</p>
-                    <hr style='width:200px ;float:left'>
-                    <p style='clear:both'>Web app , que consiste en encriptar y desencriptar texto que el usuario coloque.</p>
-                    <img src="./assets/img/encriptador.png" alt="proyecto3">
-                    <a href="https://waku1044.github.io/Encriptador-grid/" class="btn__proyect" target="_blank">Ir al programa</a>
-                    <a href="https://github.com/waku1044/Encriptador-grid" target="_blank" class="btn__proyect" target="_blank">Ir al codigo</a>
-                </article>
-            </section>
-            <a name="contacto"></a>
-            <section class="contacto">
-                <h2>Contacto</h2>
-                <form action="https://formsubmit.co/2d17d7aab64af33e85389cb86c5dcbb0" method="POST" id="formulario">
-                    <!-- <label for="nombreapellido" >Nombre y Apellido</label> -->
-                    <input type="text" name="nombreapellido" id="nombreapellido" class="input-padron" placeholder="Nombre / Empresa" required>
-                    <!-- <label for="email" >Correo Electronico</label> -->
-                    <input type="email" name="email" id="email" placeholder="Email@dominio.com" class="input-padron" required>
-                    <!-- <label for="telefono" >Teléfono</label> -->
-                    <!-- <input type="tel" name="telefono" id="telefono" placeholder="(xx) xxxx xxxx" class="input-padron" required> -->
-                    <!-- <label for="mensaje" >Mensaje</label> -->
-                    <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aqui" class="input-padron"></textarea>
-                    <input type="submit" value="Enviar" id="enviar">
-                    <input type="hidden" name="_next" value="https://waku1044.github.io/New-portfolio/">
-                    <input type="hidden" name="_captcha" value="false">
-                </form>
-            </section>
-        </main>
-        <footer>
-            <h3>Contactame por Redes</h3>
-            <ul>
-                <li><a target="_blank" href="https://www.instagram.com/wakug44" target="_blank"><img src="./assets/img/instagram.png" alt="instagram"></a></li>
-                <li><a target="_blank" href="https://www.linkedin.com/in/walter-gimenez-waku"><img src="./assets/img/linkedin.png" alt="linkedin"></a></li>
-                <li><a target="_blank" href="https://github.com/waku1044"><img src="./assets/img/github_fondo_blanco.svg" alt="github"></a>
-                </li>
-            </ul>
-            <blockquote>
-                <p>&copy Todos los derechos de este Portfolio son de Wakutec</p>
-            </blockquote>
-        </footer>
+            <div class="d-flex flex-column align-items-center gap-3 p-3">
+              <img src="./assets/img/Excludecss.svg" id="css" alt="logocss" />
+              <p class="fs-2">Css</p>
+            </div>
+            <div class="d-flex flex-column align-items-center gap-3 p-3">
+              <img src="./assets/img/Excludejs.svg" id="js" alt="logojs" />
+              <p class="fs-2">Javascript</p>
+            </div>
+            <div class="d-flex flex-column align-items-center gap-3 p-3">
+              <img
+                src="./assets/img/logoreact.png"
+                id="react"
+                alt="logoReact"
+              />
+              <p class="fs-2">Reactjs</p>
+            </div>
+            <div class="d-flex flex-column align-items-center gap-3 p-3">
+              <img src="./assets/img/logoo.png" id="jquery" alt="logoJquery" />
+              <p class="fs-2">Jquery</p>
+            </div>
+            <div class="d-flex flex-column align-items-center gap-3 p-3">
+              <img
+                src="./assets/img/logotailwind.png"
+                id="tailwind"
+                alt="logoTailwind"
+              />
+              <p class="fs-2">Tailwind</p>
+            </div>
+            <div class="d-flex flex-column align-items-center gap-3 p-3">
+              <img
+                src="./assets/img/logobootstrap.png"
+                id="bootstrap"
+                alt="logoBootstrap"
+              />
+              <p class="fs-2">Bootstrap</p>
+            </div>
+            <div class="d-flex flex-column align-items-center gap-3 p-3">
+              <img
+                src="./assets/img/logofigma.png"
+                id="figma"
+                alt="logoFigma"
+              />
+              <p class="fs-2">Figma</p>
+            </div>
+            <div class="d-flex flex-column align-items-center gap-3 p-3">
+              <img src="./assets/img/Excludegit.svg" id="git" alt="logoGit" />
+              <p class="fs-2">Git</p>
+            </div>
+            <div class="d-flex flex-column align-items-center gap-3 p-3">
+              <img
+                src="./assets/img/logogithub.png"
+                id="github"
+                alt="logoGithub"
+              />
+              <p class="fs-2">Github</p>
+            </div>
+          </div>
+        </section>
+        
+        <a name="proyectos"></a>
+        <h2>Proyectos</h2>
+        <section class="proyectos my-3">
+          <article class="proyect1">
+            <h3>Juego de conejos</h3>
+            <p class="text-center">HTML / CSS / JAVASCRIPT</p>
+            <hr style="width: 200px; float: left" />
+            <p style="clear: both">
+              Juego que consiste en tocar los conejitos y sumar puntos, el que
+              llegue hasta 10 gana.
+            </p>
+            <img src="./assets/img/fotojuego1.png" alt="proyecto1" />
+            <a
+              href="https://waku1044.github.io/Juego-de-conejos"
+              class="btn__proyect"
+              target="_blank"
+              >Ir al juego</a
+            >
+            <a
+              href="https://github.com/waku1044/Juego-de-conejos"
+              class="btn__proyect"
+              target="_blank"
+              >Ir al codigo</a
+            >
+          </article>
+          <article class="proyect2">
+            <h3>Web de Barberia</h3>
+            <p class="text-center">HTML / CSS / JAVASCRIPT</p>
+            <hr style="width: 200px; float: left" />
+            <p style="clear: both">
+              Web informativa de una Barberia con todos sus servicios.
+            </p>
+            <img src="./assets/img/headerimg.jpg" alt="proyecto2" />
+            <a
+              href="https://waku1044.github.io/Barberia-Alura/"
+              class="btn__proyect"
+              target="_blank"
+              >Ir a la web</a
+            >
+            <a
+              href="https://github.com/waku1044/Barberia-Alura"
+              class="btn__proyect"
+              target="_blank"
+              >Ir al codigo</a
+            >
+          </article>
+          <article class="proyect3">
+            <h3>Encriptador de texto</h3>
+            <p class="text-center">HTML / CSS / JAVASCRIPT</p>
+            <hr style="width: 200px; float: left" />
+            <p style="clear: both">
+              Web app , que consiste en encriptar y desencriptar texto que el
+              usuario coloque.
+            </p>
+            <img src="./assets/img/encriptador1.png" alt="proyecto3" />
+            <a
+              href="https://waku1044.github.io/Encriptador-grid/"
+              class="btn__proyect"
+              target="_blank"
+              >Ir al programa</a
+            >
+            <a
+              href="https://github.com/waku1044/Encriptador-grid"
+              target="_blank"
+              class="btn__proyect"
+              target="_blank"
+              >Ir al codigo</a
+            >
+          </article>
+        </section>
+        
+        <a name="contacto"></a>
+        <section class="contacto">
+          <h2>Contacto</h2>
+          <form
+            action="https://formsubmit.co/2d17d7aab64af33e85389cb86c5dcbb0"
+            method="POST"
+            id="formulario"
+          >
+            <!-- <label for="nombreapellido" >Nombre y Apellido</label> -->
+            <input
+              type="text"
+              name="nombreapellido"
+              id="nombreapellido"
+              class="input-padron"
+              placeholder="Nombre / Empresa"
+              required
+            />
+            <!-- <label for="email" >Correo Electronico</label> -->
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email@dominio.com"
+              class="input-padron"
+              required
+            />
+            <!-- <label for="telefono" >Teléfono</label> -->
+            <!-- <input type="tel" name="telefono" id="telefono" placeholder="(xx) xxxx xxxx" class="input-padron" required> -->
+            <!-- <label for="mensaje" >Mensaje</label> -->
+            <textarea
+              id="mensaje"
+              name="mensaje"
+              placeholder="Escribe tu mensaje aqui"
+              class="input-padron"
+            ></textarea>
+            <input type="submit" value="Enviar" id="enviar" />
+            <input
+              type="hidden"
+              name="_next"
+              value="https://waku1044.github.io/New-portfolio/"
+            />
+            <input type="hidden" name="_captcha" value="false" />
+          </form>
+        </section>
+      </main>
+      <footer>
+        <h3>Contactame por Redes</h3>
+        <ul>
+          <li>
+            <a
+              target="_blank"
+              href="https://www.instagram.com/wakug44"
+              target="_blank"
+              ><img src="./assets/img/instagram.png" alt="instagram"
+            /></a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/walter-gimenez-waku"
+              ><img src="./assets/img/linkedin.png" alt="linkedin"
+            /></a>
+          </li>
+          <li>
+            <a target="_blank" href="https://github.com/waku1044"
+              ><img src="./assets/img/github_fondo_blanco.svg" alt="github"
+            /></a>
+          </li>
+        </ul>
+        <blockquote>
+          <p>&copy Todos los derechos de este Portfolio son de Wakutec</p>
+        </blockquote>
+      </footer>
     </div>
     <script src="assets/script/index.js"></script>
-	<script defer src="https://i.icomoon.io/public/temp/27b4bfd144/UntitledProject/svgxuse.js"></script>
-</body>
-
+    <script
+      defer
+      src="https://i.icomoon.io/public/temp/27b4bfd144/UntitledProject/svgxuse.js"
+    ></script>
+  </body>
 </html>

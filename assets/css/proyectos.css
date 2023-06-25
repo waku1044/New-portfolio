@@ -3,23 +3,21 @@
 	flex-direction: column;
 	align-items: center;
 }
-.proyectos h3{
-	font-size: 2rem;
-}
-.proyect{
+article{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: 10px;
-	padding-bottom: 50px;
+	margin-bottom: 80px;
+	gap: 15px;
 
 }
-.proyect p{
-	padding: 10px 25px;
+.proyectos h3{
+	font-size: 2rem;
 }
 .btn__proyect{
+	font-size: 1.3rem;
 	text-decoration: none;
-	color: var(--background-fondo);
+	color: #cdd;
 	border: none;
 	border-radius: 15px;
 	box-shadow: inset 5px 5px 3px var(--parrafos), 5px 5px 3px var(--sombra-gris);
@@ -28,5 +26,23 @@
 	font-weight: 700;
 }
 .proyect1 img, .proyect2 img, .proyect3 img{
-	width: 200px;
+	width: 20rem;
+	height: 20rem;
+}
+@media screen and (min-width:768px){
+	.proyectos{
+		width: 100%;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 30px;
+		align-items: center;
+		justify-content: space-around;
+	}
+	.proyect1 img, .proyect2 img, .proyect3 img{
+		width: 17rem;
+		height: 17rem;
+	}
+	.proyect1, .proyect2, .proyect3{
+		width: 230px;
+	}
 }

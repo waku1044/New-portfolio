@@ -1,4 +1,5 @@
 .contacto{
+	width: 75%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -16,8 +17,11 @@ form input{
 	padding: 20px;
 	border: 1px solid #000;
 	box-shadow: 5px 5px 3px var(--sombra-gris);
+	background: #ccc;
 }
 form textarea{
+	background: #ccc;
+
 	padding: 20px;
 	border: 1px solid #000;
 	box-shadow: 5px 5px 3px var(--sombra-gris);
@@ -32,7 +36,7 @@ form textarea{
 	border-radius: 10px;
 	box-shadow: 0 5px var(--sombra-gris);
 	background-color: slateblue;
-	transition: .500s all;
+	transition:all 1s ease;
 }
 #enviar:hover{
 	transform: scale(1.2);

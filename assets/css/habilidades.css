@@ -1,19 +1,19 @@
-.habilidades{
+/* .habilidades{
 	width: 100%;
 	max-width: 960px;
 	
 
-/*	background-color: brown;*/
+
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-}
+} */
 .habilidades img{
 	
-	width: 32px;
+	width: 4rem;
 }
 
-.habilidades-img{
+/* .habilidades-img{
 		
 	display: flex;
 	flex-direction: column;
@@ -23,8 +23,8 @@
 	width: 300px;
 	flex-wrap: wrap;
 	gap: 20px;
-/*	background-color: brown;*/
-}
+
+} */
 .habilidades img:hover{
 
 	opacity: .5;
