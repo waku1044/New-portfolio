@@ -1,41 +1,6 @@
-.sobre-mi_fotoPerfil{
-	width: 100%;
-	max-width: 200px;
+.data-user{
+	color: var(--parrafos);
 }
-h1 , h2{
-	color: var(--titulos-secciones);
-	font-size: 2rem;
-	margin: 30px;
-}
-.sobre-mi{
-	width: 100%;
-	max-width: 960px;
-	
-	display: flex;
-	flex-direction: column;
-/*	justify-content: center;*/
-	align-items: center;
-}
-.sobre-mi p{
-	font-size: 1.5rem;
-	padding: 10px 50px;
-}
-.sobre-mi h3{
-	font-size: 1.6rem;
-	padding: 20px 20px;
-	color: var(--subtitulo);
-}
-.sobre-mi img{
-	display: inline-block;
-}
-.btn-descargar{
-	margin: 10px auto;
-	text-decoration: none;
-	letter-spacing: .5px;
-	color: #000;
-	font-weight: 700;
-	background: #ccc;
-	padding:10px 10px;
-	border-radius: 15px;
-	
+h3{
+	color: var(--titulos-secciones);	
 }

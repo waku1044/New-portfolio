@@ -30,3 +30,6 @@
 	opacity: .5;
 	cursor: pointer;
 }
+.formacion .certificado_formacion{
+	width: 20rem;
+}
