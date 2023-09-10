@@ -11,6 +11,13 @@ article{
 	gap: 15px;
 
 }
+.card{
+	transition: all .8s;
+}
+.card:hover{
+	transform: scale(1.05);
+	opacity: 0.5;
+}
 .proyectos h3{
 	font-size: 2rem;
 }

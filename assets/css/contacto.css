@@ -1,10 +1,10 @@
-.contacto{
+/* .contacto{
 	width: 75%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-}
+} */
 form{
 	width: 100%;
 	max-width: 960px;
@@ -39,7 +39,7 @@ form textarea{
 	transition:all 1s ease;
 }
 #enviar:hover{
-	transform: scale(1.2);
+	transform: scale(1.05);
 	background-color: var(--btn-proyectos);
 }
 #enviar:active{
