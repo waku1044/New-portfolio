@@ -17,7 +17,7 @@ p{
 	font-size: 1.4rem;
 }
 .card{
-	max-width: 30rem;
+	max-width: 20rem;
 	background: #6fcfd6b0;
 }
 .card-img{
@@ -40,6 +40,13 @@ main{
 	justify-content: center;
 	align-items: center;
 	
+}
+.certificado_formacion{
+	border-radius: 30px;
+	transition: all .8s;
+}
+.certificado_formacion:hover{
+	transform: scale(1.1);
 }
 #dialog{
 	width: 20rem;
