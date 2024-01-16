@@ -7,6 +7,10 @@
 	--btn-proyectos:#33D468B0;
 	--sombra-gris:#444;
 }
+body{
+	background: rgba(0,12,14,1);
+background: linear-gradient(49deg, rgba(86,178,207,1) 0%, rgba(63,204,107,1) 50%, rgba(0,12,14,1) 100%);
+}
 h2{
 	font-size: 2rem;
 	color: var(--titulos-secciones);

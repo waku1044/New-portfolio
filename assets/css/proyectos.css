@@ -13,7 +13,7 @@ article{
 }
 .card{
 	transition: all .8s;
-	opacity: 0.5;
+	opacity: 0.8;
 }
 .card:hover{
 	transform: scale(1.05);
