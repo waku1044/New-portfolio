@@ -7,79 +7,79 @@ const $titulo = document.querySelector("#titulo");
 const $img_modal = document.querySelector("#img_dialog");
 const $btn_cerrar = document.querySelector(".btn_cerrar");
 
-const img_certificados = [
-  "./assets/img/certificado_html.png",
-  "./assets/img/certificado_css.png",
-  "./assets/img/certificado_js.png",
-  "./assets/img/certificado_jquery.png",
-  "./assets/img/certificado_git.png",
-  "./assets/img/certificado_react.png",
-];
+// const img_certificados = [
+//   "./assets/img/certificado_html.png",
+//   "./assets/img/certificado_css.png",
+//   "./assets/img/certificado_js.png",
+//   "./assets/img/certificado_jquery.png",
+//   "./assets/img/certificado_git.png",
+//   "./assets/img/certificado_react.png",
+// ];
 
-function modal(id) {
-  console.log(id);
-  switch (id) {
-    case "html":
-      $titulo.innerHTML = "";
-      $img_modal.style.display = "block";
-      $img_modal.src = img_certificados[0];
-      $modals.showModal();
-      break;
-    case "css":
-      $titulo.innerHTML = "";
-      $img_modal.style.display = "block";
-      $img_modal.src = img_certificados[1];
-      $modals.showModal();
-      break;
-    case "js":
-      $titulo.innerHTML = "";
-      $img_modal.style.display = "block";
-      $img_modal.src = img_certificados[2];
-      $modals.showModal();
-      break;
-    case "jquery":
-      $titulo.innerHTML = "";
-      $img_modal.style.display = "block";
-      $img_modal.src = img_certificados[3];
-      $modals.showModal();
-      break;
-    case "git":
-      $titulo.innerHTML = "";
-      $img_modal.style.display = "block";
-      $img_modal.src = img_certificados[4];
-      $modals.showModal();
-      break;
-    case "github":
-      $titulo.innerHTML = "";
-      $img_modal.style.display = "block";
-      $img_modal.src = img_certificados[4];
-      $modals.showModal();
-      break;
-    case "react":
-      $titulo.innerHTML = "";
-      $img_modal.style.display = "block";
-      $img_modal.src = img_certificados[5];
-      $modals.showModal();
-      break;
-    default:
-      $img_modal.style.display = "none";
-      $titulo.innerHTML = "<h2>Sin certificado por el momento.</h2>";
-      $modals.showModal();
-  }
-  // $modals.style.display = 'block'
-}
-//modal  en habilidades
-function cerrar() {
-  // $modals.style.display = 'none'
-  $modals.close();
-  // alert('anda')
-}
+// function modal(id) {
+//   console.log(id);
+//   switch (id) {
+//     case "html":
+//       $titulo.innerHTML = "";
+//       $img_modal.style.display = "block";
+//       $img_modal.src = img_certificados[0];
+//       $modals.showModal();
+//       break;
+//     case "css":
+//       $titulo.innerHTML = "";
+//       $img_modal.style.display = "block";
+//       $img_modal.src = img_certificados[1];
+//       $modals.showModal();
+//       break;
+//     case "js":
+//       $titulo.innerHTML = "";
+//       $img_modal.style.display = "block";
+//       $img_modal.src = img_certificados[2];
+//       $modals.showModal();
+//       break;
+//     case "jquery":
+//       $titulo.innerHTML = "";
+//       $img_modal.style.display = "block";
+//       $img_modal.src = img_certificados[3];
+//       $modals.showModal();
+//       break;
+//     case "git":
+//       $titulo.innerHTML = "";
+//       $img_modal.style.display = "block";
+//       $img_modal.src = img_certificados[4];
+//       $modals.showModal();
+//       break;
+//     case "github":
+//       $titulo.innerHTML = "";
+//       $img_modal.style.display = "block";
+//       $img_modal.src = img_certificados[4];
+//       $modals.showModal();
+//       break;
+//     case "react":
+//       $titulo.innerHTML = "";
+//       $img_modal.style.display = "block";
+//       $img_modal.src = img_certificados[5];
+//       $modals.showModal();
+//       break;
+//     default:
+//       $img_modal.style.display = "none";
+//       $titulo.innerHTML = "<h2>Sin certificado por el momento.</h2>";
+//       $modals.showModal();
+//   }
+//   // $modals.style.display = 'block'
+// }
+// //modal  en habilidades
+// function cerrar() {
+//   // $modals.style.display = 'none'
+//   $modals.close();
+//   // alert('anda')
+// }
 
-img_habil.forEach((img) => {
-  img.addEventListener("click", () => {
-    modal(img.id);
-  });
-});
+// img_habil.forEach((img) => {
+//   img.addEventListener("click", () => {
+//     modal(img.id);
+//   });
+// });
 function abreMenu() {
   (toogle.childNodes[1].style.display == "flex")?toogle.childNodes[1].style.display = "none": toogle.childNodes[1].style.display = "flex"
 }

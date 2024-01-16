@@ -94,14 +94,9 @@
       <main class="mt-5">
         
         <a name="habilidades"></a>
-        <section class="habilidades">
+        <section class="habilidades w-75">
           <h2 class="text-center">Habilidades</h2>
-          <p class="text-white fs-5">Puedes hacer click en las habilidades y ver certificados.</p>
-          <dialog id="dialog">
-            <h3 id="titulo"></h3>
-            <img id="img_dialog" class="dialog_img" alt="certificado" />
-            <button id="btn_cerrar" class="btn_cerrar">Cerrar</button>
-          </dialog>
+
 
           <div
             class="habilidades-img d-flex flex-wrap justify-content-center my-5 gap-4"
@@ -162,9 +157,9 @@
               <img src="./assets/img/Excludegit.svg" id="git" alt="logoGit" />
               <p class="fs-2">Git</p>
             </div>
-            <div class="d-flex flex-column align-items-center gap-3 p-3 bg-white rounded">
+            <div class="d-flex flex-column align-items-center gap-3 p-3">
               <img
-                src="./assets/img/logogithub.png"
+                src="./assets/img/github_fondo_blanco.svg"
                 id="github"
                 alt="logoGithub"
               />
@@ -174,14 +169,81 @@
         </section>
 
         <a name="formacion"></a>
-        <section>
+        <section class=" my-3 p-y3">
             <h2 class="text-center">Formación</h2>
-            <div class="formacion row justify-content-center gap-2">
-              <img class="certificado_formacion" src="./assets/img/ArgentinaPrograma.png" alt="Argentina Programa">
-              <img class="certificado_formacion" src="./assets/img/programador Junior.png" alt="Alura Latam & Oracle">
-              <img class="certificado_formacion" src="./assets/img/Desarrollo Frontend ticmas .png" alt="Ticmas" >
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" style="width:500px;">
+              <div class="carousel-inner" >
+                <div class="carousel-item active" data-bs-interval="2000">
+                  <img src="./assets/img/ArgentinaPrograma.png" class="d-block img_formacion " alt="Arg_Programa">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="./assets/img/programador Junior.png" class="d-block  img_formacion" alt="Oracle">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="./assets/img/Desarrollo Frontend ticmas .png" class="d-block img_formacion" alt="Ticmas">
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/img/Walter Gimenez.jpg" class="d-block img_formacion" alt="No-Country">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
 
+        </section>
+
+        <a name="certificados"></a>
+        <section class="section_certificado my-3">
+          <h2 class="text-center">Certificados</h2>
+          <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img src="./assets/img/certificado_html.png" class="d-block w-100" alt="Html">
+                
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./assets/img/certificado_css.png" class="d-block w-100" alt="Css">
+                
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./assets/img/certificado_js.png" class="d-block w-100" alt="JS">
+                
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./assets/img/certificado_jquery.png" class="d-block w-100" alt="Jquery">
+                
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./assets/img/certificado_git.png" class="d-block w-100" alt="Git">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./assets/img/certificado_react.png" class="d-block w-100" alt="React">
+              
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </section>
         
         <a name="proyectos"></a>
@@ -190,12 +252,12 @@
           
           <article class="card">
             <img src="./assets/img/fotojuego1.png" class="card-img-top card-img" alt="proyecto">
-            <div class="card-body">
+            <div class="card-body d-flex flex-column justify-content-around">
               <h1 class="card-title">Juego de conejos</h1>
               <p class="fs-6">HTML / CSS / JAVASCRIPT</p>
               <p class="card-text py-3">Juego que consiste en tocar los conejitos y sumar puntos, el que
                 llegue hasta 10 gana.</p>
-                <a href="https://waku1044.github.io/Juego-de-conejos" class="btn btn-success" target="_blank">Ir al juego</a>
+                <a href="https://waku1044.github.io/Juego-de-conejos" class="btn btn-success mb-2" target="_blank">Ir al juego</a>
                 <a href="https://github.com/waku1044/Juego-de-conejos"
                 class="btn btn-primary" target="_blank">Ir al codigo</a>
             </div>
@@ -203,11 +265,11 @@
           
           <article class="card">
             <img src="./assets/img/headerimg.jpg" class="card-img-top card-img" alt="proyecto">
-            <div class="card-body">
+            <div class="card-body d-flex flex-column justify-content-around">
               <h1 class="card-title">Web de Barberia</h1>
               <p class="fs-6">HTML / CSS / JAVASCRIPT</p>
               <p class="card-text py-3"> Web informativa de una Barberia con todos sus servicios.</p>
-                <a href="https://waku1044.github.io/Barberia-Alura/" class="btn btn-success" target="_blank">Ir a la web</a>
+                <a href="https://waku1044.github.io/Barberia-Alura/" class="btn btn-success mb-2" target="_blank">Ir a la web</a>
                 <a href="https://github.com/waku1044/Barberia-Alura"
                 class="btn btn-primary" target="_blank">Ir al codigo</a>
             </div>
@@ -215,12 +277,12 @@
           
           <article class="card">
             <img src="./assets/img/encriptador1.png" class="card-img-top card-img" alt="proyecto">
-            <div class="card-body">
+            <div class="card-body d-flex flex-column justify-content-around">
               <h1 class="card-title">Encriptador de texto</h1>
               <p class="fs-6">HTML / CSS / JAVASCRIPT</p>
               <p class="card-text py-3">Web app , que consiste en encriptar y desencriptar texto que el
                 usuario coloque.</p>
-                <a href="https://waku1044.github.io/Encriptador-grid/" class="btn btn-success" target="_blank">Ir al programa</a>
+                <a href="https://waku1044.github.io/Encriptador-grid/" class="btn btn-success mb-2" target="_blank">Ir al programa</a>
                 <a href="https://github.com/waku1044/Encriptador-grid"
                 class="btn btn-primary" target="_blank">Ir al codigo</a>
             </div>
@@ -228,11 +290,11 @@
           
           <article class="card" >
             <img src="./assets/img/SyncCare.png" class="card-img-top card-img" alt="proyecto">
-            <div class="card-body">
+            <div class="card-body d-flex flex-column justify-content-around">
               <h1 class="card-title">SynCare</h1>
               <p class="fs-6">REACT / BOOTSTRAP / NODEJS / EXPRESS / MONGODB</p>
               <p class="card-text py-3">Proyecto colaborativo de una HealthTech que permite reservar citas médicas de manera rápida y sencilla. </p>
-                <a href="https://synccare.vercel.app/" class="btn btn-success" target="_blank">Ir a la web</a>
+                <a href="https://synccare.vercel.app/" class="btn btn-success mb-3" target="_blank">Ir a la web</a>
                 <a href="https://github.com/No-Country/c11-28-t-node-react"
                 class="btn btn-primary" target="_blank">Ir al codigo</a>
             </div>
@@ -240,11 +302,11 @@
           
           <article class="card">
             <img src="./assets/img/CookGpt.png" class="card-img-top card-img" alt="proyecto" style="height: 300px;">
-            <div class="card-body">
+            <div class="card-body d-flex flex-column justify-content-around">
               <h1 class="card-title">CookGpt</h1>
               <p class="fs-6">REACT /  TAILWIND / NODEJS / EXPRESS / MONGODB</p>
               <p class="card-text py-3">Web app , que consiste en interactuar con un bot pasandole 3 ingredientes para que nos de una receta y poder guardarla si estamos registrados o sino como invitado.Al usar la Api de OpenIA , que es paga puede ser que en este momento no este funcioinando para devolver una receta, para lo demas si. </p>
-                <a href="https://chefgpt-lnox.onrender.com/" class="btn btn-success" target="_blank">Ir a la Web</a>
+                <a href="https://chefgpt-lnox.onrender.com/" class="btn btn-success mb-3" target="_blank">Ir a la Web</a>
                 <a href="https://github.com/No-Country/S12-04-T-Node-React"
                 class="btn btn-primary" target="_blank">Ir al codigo</a>
             </div>
@@ -252,11 +314,11 @@
           
           <article class="card">
             <img src="./assets/img/E-commerce.png" class="card-img-top card-img" alt="proyecto">
-            <div class="card-body">
+            <div class="card-body d-flex flex-column justify-content-around">
               <h1 class="card-title">E-Commerce</h1>
               <p class="fs-6">HTML / CSS / JAVASCRIPT / BOOTSTRAP</p>
-              <p class="card-text py-3">Web app , Venta de productos realizando un CRUD , utilizando json-server.</p>
-                <a href="https://e-commerce-olive-two.vercel.app/" class="btn btn-success" target="_blank">Ir a la web</a>
+              <p class="card-text py-3">Web app , Venta de productos realizando un CRUD , utilizando json-server con registro y login de usuario. (Actualmente modificandola en React)</p>
+                <a href="https://e-commerce-olive-two.vercel.app/" class="btn btn-success " target="_blank">Ir a la web</a>
                 <a href="https://github.com/waku1044/E-commerce"
                 class="btn btn-primary" target="_blank">Ir al codigo</a>
             </div>
@@ -264,11 +326,11 @@
           
           <article class="card">
             <img src="./assets/img/Landing.png" class="card-img-top card-img" alt="proyecto">
-            <div class="card-body">
+            <div class="card-body d-flex flex-column justify-content-around">
               <h1 class="card-title">Landing-Page</h1>
               <p class="fs-6">HTML / CSS / JAVASCRIPT / BOOTSTRAP</p>
               <p class="card-text py-3">Web app , Pagina de aterrizaje para poder mostrar los productos de un comercio y con whatsap incluido.</p>
-                <a href="https://web-landing-ruby.vercel.app/" class="btn btn-success" target="_blank">Ir a la web</a>
+                <a href="https://web-landing-ruby.vercel.app/" class="btn btn-success mb-1" target="_blank">Ir a la web</a>
                 <a href="https://github.com/waku1044/Web-Landing"
                 class="btn btn-primary" target="_blank">Ir al codigo</a>
             </div>
@@ -276,7 +338,7 @@
 
           <article class="card">
             <img src="./assets/img/peliculas.png" class="card-img-top card-img" alt="proyecto">
-            <div class="card-body">
+            <div class="card-body d-flex flex-column justify-content-around">
               <h1 class="card-title">Cyrak Movie</h1>
               <p class="fs-6">HTML / CSS / JAVASCRIPT / BOOTSTRAP</p>
               <p class="card-text py-3">Web app , para ver todas las peliculas actuales usando la API de OMDB MOVIE.</p>
@@ -288,7 +350,7 @@
 
           <article class="card d-flex">
             <img src="./assets/img/todo-list-React.png" class="card-img-top card-img" alt="proyecto" >
-            <div class="card-body">
+            <div class="card-body d-flex flex-column justify-content-around">
               <h1 class="card-title">Todo-List-React</h1>
               <p class="fs-6">HTML / CSS / JAVASCRIPT / REACTJS / BOOTSTRAP</p>
               <p class="card-text py-3">Web app , para ver todas las tareas agendadas, realizando un CRUD con useContent</p>
