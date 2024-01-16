@@ -8,12 +8,16 @@ article{
 	flex-direction: column;
 	align-items: center;
 	margin-bottom: 80px;
-	gap: 15px;
 
 }
 .card{
 	transition: all .8s;
 	opacity: 0.8;
+	border-radius: 20px;
+}
+.card-body{
+	background:#cbc;
+	border-radius: 20px;
 }
 .card:hover{
 	transform: scale(1.05);
