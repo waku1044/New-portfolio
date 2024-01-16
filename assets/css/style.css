@@ -41,15 +41,22 @@ main{
 	align-items: center;
 	
 }
+.section_formacion{
+	width: 100%;
+	margin:0 auto;
+	padding-bottom:20px ;
+}
 .img_formacion{
-
-	width: 30rem;
-	height: 20rem;
-	;
+	width:100%;
+	height: 30rem;
+	margin: 0 auto;
+		
+	
 }
 .section_certificado{
-	width: 40%;
-	min-width: 40%;
+	width: 100%;
+	margin:0 auto;
+	padding-bottom:20px ;
 }
 
 #dialog .dialog_img{
@@ -75,11 +82,9 @@ main{
 	border-radius: 20px;
 }
 @media screen and (min-width:704px){
-	#dialog{
-	width: 50%;
-	background: #444;
+.img_formacion{
+	width:40rem;
 }
-
 #dialog .dialog_img{
 	
 	transition: all 10s linear;
