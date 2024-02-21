@@ -92,5 +92,5 @@ link.forEach((e) => {
   });
 });
 
-$btn_cerrar.onclick = cerrar;
-btn_menu.onclick = abreMenu;
+// $btn_cerrar.onclick = cerrar;
+// btn_menu.onclick = abreMenu;
