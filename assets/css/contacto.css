@@ -17,7 +17,7 @@ form{
 	padding-bottom: 30px;
 }
 form input{
-	padding: 20px;
+	padding: 10px;
 	border: 1px solid #000;
 	box-shadow: 5px 5px 3px var(--sombra-gris);
 	background: #ccc;
